@@ -43,7 +43,7 @@ function play()
 {
     song.play();
     song.setVolume(0.2);
-    song.rate(5);
+    song.rate(1);
 }
 function gotPoses(results)
 {
@@ -60,6 +60,6 @@ function gotPoses(results)
        
        rightWristX = results[0].pose.rightWrist.x;
        rightWristY = results[0].pose.rightWrist.y;
-       console.log("rightWristX = " + rightWristX + "rightWristY = " + righWristY);
+       console.log("rightWristX = " + rightWristX + "rightWristY = " + rightWristY);
    }
 } 
